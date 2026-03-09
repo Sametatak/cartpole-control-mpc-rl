@@ -5,6 +5,7 @@ The project is built on **ROS 2 Humble** and simulated in **Gazebo**.
 
 ---
 
+
 # 📌 Project Overview
 
 The goal of this project is to keep a dynamically unstable **cart-pole system upright** while actively rejecting external disturbances.
@@ -125,7 +126,7 @@ source install/setup.bash
 ---
 
 # Part 1: Model Predictive Control (MPC)
-
+![gazebo_mpc webm](https://github.com/user-attachments/assets/b6011b96-d49d-4486-b008-4a17eedbf46f)
 ### 1. Launch Simulation World
 
 Start the **single-robot Gazebo environment**:
@@ -171,6 +172,7 @@ ros2 run my_mpc_planner teleop.py
 ---
 
 # Part 2: Reinforcement Learning (PPO)
+![stable_models webm](https://github.com/user-attachments/assets/a98ca621-41a7-4f57-8643-b3a62308fa64)
 
 Training directly in Gazebo is extremely slow, so we use a **Fast-Sim Pretraining Pipeline**.
 
