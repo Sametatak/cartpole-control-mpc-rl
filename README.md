@@ -235,7 +235,3 @@ ros2 run my_mpc_planner python_rl_node
 
 
 ---
-
-# 📜 License
-
-MIT License
